@@ -9,7 +9,7 @@ on:
 
 jobs:
   create-draft:
-    uses: hatena/hatenablog-workflows/.github/workflows/create-draft.yaml@fa544a63e845030ff65e35d78847e2bc2cab981e # v2.0.2
+    uses: nemuki/hatenablog-workflows/.github/workflows/create-draft.yaml@test-draft-entry
     with:
       title: ${{ github.event.inputs.title }}
       draft: true
